@@ -190,6 +190,9 @@ function build() {
 	# cp other firmwares(soc related)
 	copy_other_soc
 
+	# make build directory
+	mkdir -p ${BUILD_FOLDER}
+
 	# package final bootloader
 	package
 
